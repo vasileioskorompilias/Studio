@@ -54,8 +54,8 @@ module.exports = {
   transformers : {
     remark : {
       plugins : [
-        '@jammeryhq/gridsome-remark-table-align',
-        ['@jammeryhq/gridsome-remark-classes', {
+        '@noxify/gridsome-remark-table-align',
+        ['@noxify/gridsome-remark-classes', {
           'paragraph': 'text-normal font-serif py-2',
           'table': 'table table-striped',
           'tableCell[align=center]' : 'text-center',
