@@ -15,13 +15,11 @@ Fast-track your JAMstack development & learning
 
 # About the starter
 
-Gridsome starter that is ideal for portfolios and blogs that uses markdown for the content and tailwindcss for the styles.
-
-This starter is based on [Ghost Casper V2](https://github.com/TryGhost/Casper/tree/2.4).
+Gridsome starter based on the Casper theme for Ghost. Content is added via markdown, while Tailwind CSS is used for the layout/styling.
 
 ## Key features
 
-* Built with tailwindcss
+* Built with Tailwind CSS
 * Responsive 
 * Blog
 * Author pages
@@ -37,3 +35,7 @@ Run the following command to create a new gridsome project
 ```
 gridsome create my-blog https://github.com/jammeryhq/gridsome-starter-casper-v2
 ```
+
+## Credits
+
+This starter is based on [Ghost Casper V2](https://github.com/TryGhost/Casper/tree/2.4).
