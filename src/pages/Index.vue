@@ -22,7 +22,7 @@
 
 query($page:Int) {
 
-  entries: allBlog(perPage: 6, page: $page) @paginate {
+  entries: allplay(perPage: 6, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages

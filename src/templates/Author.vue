@@ -76,7 +76,7 @@
         }
         edges {
           node {
-            ... on Blog {
+            ... on play {
               title
               excerpt
               image(width:800)

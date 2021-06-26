@@ -21,7 +21,7 @@ Gridsome starter based on the Casper theme for Ghost. Content is added via markd
 
 * Built with Tailwind CSS
 * Responsive 
-* Blog
+* play
 * Author pages
 * Tags
 * Categories
@@ -33,7 +33,7 @@ Gridsome starter based on the Casper theme for Ghost. Content is added via markd
 Run the following command to create a new gridsome project 
 
 ```
-gridsome create my-blog https://github.com/jammeryhq/gridsome-starter-casper-v2
+gridsome create my-play https://github.com/jammeryhq/gridsome-starter-casper-v2
 ```
 
 ## Credits

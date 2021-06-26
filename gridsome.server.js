@@ -13,7 +13,7 @@ module.exports = function (api) {
   })
 
   api.onCreateNode(options => {
-    if (options.internal.typeName === 'Blog') {
+    if (options.internal.typeName === 'play') {
 
       options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
       options.author = (typeof options.author === 'string') ? options.author.split(',').map(string => string.trim()) : options.author;
@@ -32,7 +32,7 @@ module.exports = function (api) {
     const {
       data
     } = await graphql(`{
-      allBlog {
+      allplay {
         edges {
           previous {
             id
@@ -49,10 +49,10 @@ module.exports = function (api) {
     }
     `);
     
-    data.allBlog.edges.forEach(function(element) {
+    data.allplay.edges.forEach(function(element) {
       createPage({
         path: element.node.path,
-        component: './src/templates/BlogPost.vue',
+        component: './src/templates/playPost.vue',
         context: {
           previousElement: (element.previous) ? element.previous.id : '##empty##',
           nextElement: (element.next) ? element.next.id : '##empty##',

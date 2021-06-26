@@ -34,8 +34,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Blog',
-        path: './content/blog/**/*.md',
+        typeName: 'play',
+        path: './content/play/**/*.md',
         refs: {
           author: 'Author',
           tags: {
@@ -68,9 +68,9 @@ module.exports = {
   },
 
   templates: {
-    Blog: [
+    play: [
       {
-        path: '/blog/:title'
+        path: '/play/:title'
       }
     ],
     Category: [{
